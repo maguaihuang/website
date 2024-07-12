@@ -9,5 +9,5 @@ export default defineConfig({
   },
   integrations: [tailwind(), compress()],
   site: 'https://maguaihuang.github.io'
-  base: 'website',
+  base: '/website',
 });
