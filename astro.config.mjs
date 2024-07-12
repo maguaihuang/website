@@ -8,6 +8,6 @@ export default defineConfig({
     viewTransitions: true,
   },
   integrations: [tailwind(), compress()],
-  site: 'https://maguaihuang.github.io/'
-  base: 'website',
+  site: 'https://maguaihuang.github.io',
+  base: '/website/'
 });
